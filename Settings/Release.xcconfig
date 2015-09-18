@@ -1,0 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  Release.xcconfig
+//  DinaIP
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+#include "Common.xcconfig"
+
+// Optimize for space and size (Apple recommendation)
+GCC_OPTIMIZATION_LEVEL = s
+
+// Deploment postprocessing is what triggers Xcode to strip
+DEPLOYMENT_POSTPROCESSING = YES
+
+// No symbols
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+
+// Dead code strip does not affect ObjC code but can help for C
+DEAD_CODE_STRIPPING = YES
+
+// Give us warnings about uninitialized autos
+// can only be done when GCC_OPTIMIZATION_LEVEL is actually optimizing
+GCC_WARN_UNINITIALIZED_AUTOS = YES
+
+// When we strip we want to strip all symbols in release, but save externals.
+STRIP_STYLE = all
+
+// Turn off all asserts
+GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS NDEBUG DEVLOG

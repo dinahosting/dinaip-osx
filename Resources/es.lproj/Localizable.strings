@@ -1,0 +1,63 @@
+/* 
+   Localizable.strings (es)
+   DinaIP
+*/
+
+"AcceptKey" = "Aceptar";
+"CancelKey" = "Cancelar";
+
+"DeleteDomainTitleKey" = "¿Quieres eliminar el dominio seleccionado?";
+"DeleteDomainMessageKey" = "Tenga en cuenta que el dominio será eliminado de dinaIP, no del servidor.";
+
+"RetrieveZonesKey" = "Obtener zonas...";
+"UpdateZonesKey" = "Actualizar zonas...";
+"DynamicIPKey" = "IP dinámica";
+
+"FailedLoginTitleKey" = "La validación no es correcta";
+"FailedLoginMessageKey" = "Los datos de acceso no son correctos. Inténtelo de nuevo";
+"FailedNetworkTitleKey" = "Ha fallado la comunicación con el servidor";
+"FailedNetworkMessageKey" = "Revisa la conexión de la red e inténtalo de nuevo.";
+"FailedAddTitleKey" = "El dominio seleccionado es desconocido";
+"FailedAddMessageKey" = "Inténtalo de nuevo con uno de los dominios disponibles de la lista.";
+"FailedStoreTitleKey" = "No se ha podido guardar la configuración";
+"FailedStoreMessageKey" = "Intenta guardar la configuración en una ruta diferente";
+"FailedRestoreTitleKey" = "No se ha podido cargar la configuración";
+"FailedRestoreMessageKey" = "El archivo seleccionado o está corrupto o tiene un formato erróneo. Inténtelo con otro archivo.";
+"FailedUpdateZonesTitleKey" = "No se han podido guardar las zonas";
+"FailedUpdateZonesInRowTitleKey" = "No se han podido guardar los cambio debido al error en la zona %d";
+"FailedGetZonesTitleKey" = "No se ha podido obtener las zonas";
+"FailedZonesMessageKey" = "La operación ha fallado, inténtelo de nuevo más tarde.";
+"FailedZoneVerifyTitleKey" = "Algunas zonas son incorrectas";
+"FailedZoneVerifyMessageKey" = "Revisa y corrige los datos de cada zona o elimina las zonas incompletas, después vuelve a intentarlo.";
+
+"OKKey" = "OK";
+
+"NewVersionTitleKey" = "Se ha encontrado una nueva versión";
+"RequiredUpdateMessageKey" = "A continuación se va actualizar la aplicación a la versión %@";
+"MustUpdateMessageKey" = "Debería actualizar la aplicación a la versión %@. ¿Quieres hacerlo?";
+"OptionalUpdateMessageKey" = "Se recomieda actualizar la aplicación a la versión %@. ¿Quieres hacerlo?";
+
+"StatusIPKey" = "IP: ";
+"NotDeterminedKey" = "Sin determinar";
+"ShowDinaIPKey" = "Mostrar DinaIP";
+
+"StartCheckingIPKey" = "Iniciar comprobaciones de IP";
+"StopCheckingIPKey" = "Detener comprobaciones de IP";
+
+"DOMINIO_INACTIVO" = "El dominio seleccionado ya no está activo.";
+"ERROR_DINAHOSTING_CANT_ANSWER" = "Ha ocurrido un error accediendo a la base de datos. Si el problema continúa ponte en contacto con soporte técnico.";
+"ERROR_LACKS_ADDRESS_" = "Es necesario un valor para la dirección.";
+"ERROR_LACKS_HOST_" = "Es necesario un valor para la zona.";
+"ERROR_LACKS_TYPE_" = "No se tradujo porque nunca se daba.";
+"ERROR_WRONG_CNAMESPECIAL_" = "No es posible configurar un CNAME del registro @.";
+"ERROR_WRONG_FQDN_" = "Un CNAME debe apuntar a otro host o a un nombre de dominio acabado en '.'";
+"ERROR_WRONG_HOST_" = "Host no válido.";
+"ERROR_WRONG_IGUALES_" = "Los MX deben ser distintos.";
+"ERROR_WRONG_IP_" = "IP no válida.";
+"ERROR_WRONG_NODEFINIDO_" = "El MX tiene que tener su zona definida.";
+"ERROR_WRONG_TYPE_" = "El tipo de la zona no es correcto.";
+"ERROR_WRONG_URL_" = "URL no válida";
+"REGISTRADOR_CAIDO" = "Zonas definidas. Error de comunicación con el registro para establecer DNS's adecuadas. Inténtalo más tarde.";
+"WRONGIP_" = "Alguna IP introducida no es válida.";
+"WRONGMX_" = "Alguna MX introducida no es válido.";
+"WRONGRULE_" = "Debes seleccionar una de las opciones.";

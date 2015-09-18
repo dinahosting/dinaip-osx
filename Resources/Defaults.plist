@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>minimalIPUpdateInterval</key>
+	<integer>10</integer>
+	<key>minutes</key>
+	<integer>10</integer>
+	<key>shouldAutodetectIP</key>
+	<true/>
+	<key>shouldUseMinutes</key>
+	<true/>
+</dict>
+</plist>

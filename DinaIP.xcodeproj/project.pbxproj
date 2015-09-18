@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEEECB4213C178040057FAA4 /* DinaIP+DMG */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEEECB6013C1782C0057FAA4 /* Build configuration list for PBXAggregateTarget "DinaIP+DMG" */;
+			buildPhases = (
+				CEEECB4113C178040057FAA4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "DinaIP+DMG";
+			productName = "DinaIP+DMG";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CE238165134BB6A200EBE077 /* DinaIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE238157134BB6A200EBE077 /* DinaIPAppDelegate.m */; };
+		CE238166134BB6A200EBE077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE238158134BB6A200EBE077 /* main.m */; };
+		CE238168134BB6A200EBE077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE23815B134BB6A200EBE077 /* InfoPlist.strings */; };
+		CE238169134BB6A200EBE077 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE23815D134BB6A200EBE077 /* MainMenu.xib */; };
+		CE64F27713B056F800121E54 /* ico01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F27413B056F800121E54 /* ico01.png */; };
+		CE64F27813B056F800121E54 /* ico02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F27513B056F800121E54 /* ico02.png */; };
+		CE64F27913B056F800121E54 /* ico03.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F27613B056F800121E54 /* ico03.png */; };
+		CE64F2F413B0E66500121E54 /* icoAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F2F113B0E66500121E54 /* icoAdd.png */; };
+		CE64F2F513B0E66500121E54 /* icoConect.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F2F213B0E66500121E54 /* icoConect.png */; };
+		CE64F2F613B0E66500121E54 /* icoDel.png in Resources */ = {isa = PBXBuildFile; fileRef = CE64F2F313B0E66500121E54 /* icoDel.png */; };
+		CEB3F69313B5012A006D7D73 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB3F69213B5012A006D7D73 /* Defaults.plist */; };
+		CEB3F6FF13B50C3A006D7D73 /* LoginItemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F6FE13B50C3A006D7D73 /* LoginItemHelper.m */; };
+		CEB3F84313B5F584006D7D73 /* LoginDinaDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F84213B5F584006D7D73 /* LoginDinaDNS.m */; };
+		CEB3F84913B5F7A2006D7D73 /* RPCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F84813B5F7A2006D7D73 /* RPCMethod.m */; };
+		CEB3F85213B5F7DE006D7D73 /* RPCExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F85113B5F7DE006D7D73 /* RPCExecutor.m */; };
+		CEB3F86F13B60668006D7D73 /* RPCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3F86E13B60668006D7D73 /* RPCOperation.m */; };
+		CEB3FA7A13B708CA006D7D73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FA7813B708CA006D7D73 /* Localizable.strings */; };
+		CEB3FAE613B75516006D7D73 /* UserGetZonesDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FAE513B75516006D7D73 /* UserGetZonesDomain.m */; };
+		CEB3FB6313B76CFB006D7D73 /* DomainZone.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FB6213B76CFB006D7D73 /* DomainZone.m */; };
+		CEB3FC2213B7C8D5006D7D73 /* UserSetZonesDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FC2113B7C8D5006D7D73 /* UserSetZonesDomain.m */; };
+		CEDB92A713AC8E20008E5CF8 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92A613AC8E20008E5CF8 /* MainWindowController.m */; };
+		CEDB92AA13AC8E3C008E5CF8 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92A913AC8E3C008E5CF8 /* LoginWindowController.m */; };
+		CEDB92AD13AC8E79008E5CF8 /* StatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92AC13AC8E79008E5CF8 /* StatusItemController.m */; };
+		CEDB92B313AC8EC2008E5CF8 /* AddDomainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B213AC8EC2008E5CF8 /* AddDomainWindowController.m */; };
+		CEDB92B613AC8ED9008E5CF8 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B513AC8ED9008E5CF8 /* PreferencesWindowController.m */; };
+		CEDB92B913AC8EF6008E5CF8 /* ZonesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B813AC8EF6008E5CF8 /* ZonesWindowController.m */; };
+		CEDB92CE13AC905B008E5CF8 /* AddDomainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB92C413AC905B008E5CF8 /* AddDomainWindow.xib */; };
+		CEDB92CF13AC905B008E5CF8 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB92C613AC905B008E5CF8 /* LoginWindow.xib */; };
+		CEDB92D013AC905B008E5CF8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB92C813AC905B008E5CF8 /* MainWindow.xib */; };
+		CEDB92D113AC905B008E5CF8 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB92CA13AC905B008E5CF8 /* PreferencesWindow.xib */; };
+		CEDB92D213AC905B008E5CF8 /* ZonesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB92CC13AC905B008E5CF8 /* ZonesWindow.xib */; };
+		CEEEBE5513B918E80057FAA4 /* OptionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBE5413B918E80057FAA4 /* OptionTableCell.m */; };
+		CEEEC18713BA6DC80057FAA4 /* DomainGetZones.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC18613BA6DC80057FAA4 /* DomainGetZones.m */; };
+		CEEEC19B13BA710F0057FAA4 /* HTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC19A13BA710F0057FAA4 /* HTTPOperation.m */; };
+		CEEEC2BB13BB89CD0057FAA4 /* DomainSetZones.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC2BA13BB89CD0057FAA4 /* DomainSetZones.m */; };
+		CEEEC38F13BB9FEC0057FAA4 /* WorkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC38E13BB9FEC0057FAA4 /* WorkSession.m */; };
+		CEEEC6DB13BE24050057FAA4 /* VerifyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6DA13BE24050057FAA4 /* VerifyWindowController.m */; };
+		CEEEC6DE13BE24930057FAA4 /* VerifyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEC6DC13BE24930057FAA4 /* VerifyWindow.xib */; };
+		CEEEC8BB13BF2BE40057FAA4 /* TestDinaIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8B813BF2BE40057FAA4 /* TestDinaIPAppDelegate.m */; };
+		CEEEC8C113BF2C820057FAA4 /* TestRPCExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8C013BF2C820057FAA4 /* TestRPCExecutor.m */; };
+		CEEEC8C313BF2C970057FAA4 /* TestRPCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8C213BF2C970057FAA4 /* TestRPCMethod.m */; };
+		CEEEC8C513BF2CA80057FAA4 /* TestRPCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8C413BF2CA80057FAA4 /* TestRPCOperation.m */; };
+		CEEEC8C713BF2CB70057FAA4 /* TestHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8C613BF2CB70057FAA4 /* TestHTTPOperation.m */; };
+		CEEEC8C913BF2CD00057FAA4 /* TestLoginDinaDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8C813BF2CD00057FAA4 /* TestLoginDinaDNS.m */; };
+		CEEEC8CB13BF2CE00057FAA4 /* TestUserGetZonesDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8CA13BF2CE00057FAA4 /* TestUserGetZonesDomain.m */; };
+		CEEEC8CD13BF2CEE0057FAA4 /* TestUserSetZonesDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8CC13BF2CEE0057FAA4 /* TestUserSetZonesDomain.m */; };
+		CEEEC8CF13BF2CFD0057FAA4 /* TestDomainGetZones.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8CE13BF2CFD0057FAA4 /* TestDomainGetZones.m */; };
+		CEEEC8D113BF2D090057FAA4 /* TestDomainSetZones.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8D013BF2D090057FAA4 /* TestDomainSetZones.m */; };
+		CEEEC8D313BF2D170057FAA4 /* TestDomainZone.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8D213BF2D170057FAA4 /* TestDomainZone.m */; };
+		CEEEC8D513BF2D220057FAA4 /* TestWorkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8D413BF2D220057FAA4 /* TestWorkSession.m */; };
+		CEEEC8D713BF2D3F0057FAA4 /* TestMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8D613BF2D3F0057FAA4 /* TestMainWindowController.m */; };
+		CEEEC8D913BF2D590057FAA4 /* TestLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8D813BF2D590057FAA4 /* TestLoginWindowController.m */; };
+		CEEEC8DB13BF2D6D0057FAA4 /* TestStatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8DA13BF2D6D0057FAA4 /* TestStatusItemController.m */; };
+		CEEEC8DD13BF2D7C0057FAA4 /* TestAddDomainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8DC13BF2D7C0057FAA4 /* TestAddDomainWindowController.m */; };
+		CEEEC8DF13BF2D8D0057FAA4 /* TestPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8DE13BF2D8D0057FAA4 /* TestPreferencesWindowController.m */; };
+		CEEEC8E113BF2D9C0057FAA4 /* TestZonesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8E013BF2D9C0057FAA4 /* TestZonesWindowController.m */; };
+		CEEEC8E313BF2DAC0057FAA4 /* TestVerifyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8E213BF2DAC0057FAA4 /* TestVerifyWindowController.m */; };
+		CEEEC8F213BF2DE00057FAA4 /* TestLoginItemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8F113BF2DE00057FAA4 /* TestLoginItemHelper.m */; };
+		CEEEC8F413BF2DF60057FAA4 /* TestOptionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC8F313BF2DF60057FAA4 /* TestOptionTableCell.m */; };
+		CEEEC93D13BF6F620057FAA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CEEEC93F13BF6FAD0057FAA4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEEC93E13BF6FAD0057FAA4 /* SenTestingKit.framework */; };
+		CEEECBAC13C2153F0057FAA4 /* application.icns in Resources */ = {isa = PBXBuildFile; fileRef = CEEECBAB13C2153F0057FAA4 /* application.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEEEC8BC13BF2C010057FAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = DinaIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* DinaIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinaIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23814F134BB6A200EBE077 /* CodeCoverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CodeCoverage.xcconfig; sourceTree = "<group>"; };
+		CE238150134BB6A200EBE077 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CE238151134BB6A200EBE077 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CE238152134BB6A200EBE077 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CE238154134BB6A200EBE077 /* DinaIP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinaIP_Prefix.pch; sourceTree = "<group>"; };
+		CE238156134BB6A200EBE077 /* DinaIPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinaIPAppDelegate.h; sourceTree = "<group>"; };
+		CE238157134BB6A200EBE077 /* DinaIPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinaIPAppDelegate.m; sourceTree = "<group>"; };
+		CE238158134BB6A200EBE077 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE23815A134BB6A200EBE077 /* DinaIP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DinaIP-Info.plist"; sourceTree = "<group>"; };
+		CE23815C134BB6A200EBE077 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE23815E134BB6A200EBE077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE64F27413B056F800121E54 /* ico01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico01.png; sourceTree = "<group>"; };
+		CE64F27513B056F800121E54 /* ico02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico02.png; sourceTree = "<group>"; };
+		CE64F27613B056F800121E54 /* ico03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico03.png; sourceTree = "<group>"; };
+		CE64F2F113B0E66500121E54 /* icoAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icoAdd.png; sourceTree = "<group>"; };
+		CE64F2F213B0E66500121E54 /* icoConect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icoConect.png; sourceTree = "<group>"; };
+		CE64F2F313B0E66500121E54 /* icoDel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icoDel.png; sourceTree = "<group>"; };
+		CEB3F69213B5012A006D7D73 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		CEB3F6FD13B50C3A006D7D73 /* LoginItemHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItemHelper.h; sourceTree = "<group>"; };
+		CEB3F6FE13B50C3A006D7D73 /* LoginItemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginItemHelper.m; sourceTree = "<group>"; };
+		CEB3F78013B5B55D006D7D73 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
+		CEB3F84113B5F584006D7D73 /* LoginDinaDNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDinaDNS.h; sourceTree = "<group>"; };
+		CEB3F84213B5F584006D7D73 /* LoginDinaDNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDinaDNS.m; sourceTree = "<group>"; };
+		CEB3F84713B5F7A2006D7D73 /* RPCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCMethod.h; sourceTree = "<group>"; };
+		CEB3F84813B5F7A2006D7D73 /* RPCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCMethod.m; sourceTree = "<group>"; };
+		CEB3F85013B5F7DE006D7D73 /* RPCExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCExecutor.h; sourceTree = "<group>"; };
+		CEB3F85113B5F7DE006D7D73 /* RPCExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCExecutor.m; sourceTree = "<group>"; };
+		CEB3F86D13B60668006D7D73 /* RPCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCOperation.h; sourceTree = "<group>"; };
+		CEB3F86E13B60668006D7D73 /* RPCOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCOperation.m; sourceTree = "<group>"; };
+		CEB3F9E313B67F5D006D7D73 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/LoginWindow.xib; sourceTree = "<group>"; };
+		CEB3FA7913B708CA006D7D73 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB3FA7B13B709EA006D7D73 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB3FAC413B72036006D7D73 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/AddDomainWindow.xib; sourceTree = "<group>"; };
+		CEB3FAE413B75516006D7D73 /* UserGetZonesDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGetZonesDomain.h; sourceTree = "<group>"; };
+		CEB3FAE513B75516006D7D73 /* UserGetZonesDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGetZonesDomain.m; sourceTree = "<group>"; };
+		CEB3FB6113B76CFB006D7D73 /* DomainZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainZone.h; sourceTree = "<group>"; };
+		CEB3FB6213B76CFB006D7D73 /* DomainZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainZone.m; sourceTree = "<group>"; };
+		CEB3FC2013B7C8D5006D7D73 /* UserSetZonesDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetZonesDomain.h; sourceTree = "<group>"; };
+		CEB3FC2113B7C8D5006D7D73 /* UserSetZonesDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSetZonesDomain.m; sourceTree = "<group>"; };
+		CEDB92A513AC8E20008E5CF8 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		CEDB92A613AC8E20008E5CF8 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		CEDB92A813AC8E3C008E5CF8 /* LoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindowController.h; sourceTree = "<group>"; };
+		CEDB92A913AC8E3C008E5CF8 /* LoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
+		CEDB92AB13AC8E79008E5CF8 /* StatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemController.h; sourceTree = "<group>"; };
+		CEDB92AC13AC8E79008E5CF8 /* StatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemController.m; sourceTree = "<group>"; };
+		CEDB92B113AC8EC2008E5CF8 /* AddDomainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDomainWindowController.h; sourceTree = "<group>"; };
+		CEDB92B213AC8EC2008E5CF8 /* AddDomainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDomainWindowController.m; sourceTree = "<group>"; };
+		CEDB92B413AC8ED9008E5CF8 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		CEDB92B513AC8ED9008E5CF8 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		CEDB92B713AC8EF6008E5CF8 /* ZonesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonesWindowController.h; sourceTree = "<group>"; };
+		CEDB92B813AC8EF6008E5CF8 /* ZonesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonesWindowController.m; sourceTree = "<group>"; };
+		CEDB92C513AC905B008E5CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddDomainWindow.xib; sourceTree = "<group>"; };
+		CEDB92C713AC905B008E5CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginWindow.xib; sourceTree = "<group>"; };
+		CEDB92C913AC905B008E5CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEDB92CB13AC905B008E5CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
+		CEDB92CD13AC905B008E5CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZonesWindow.xib; sourceTree = "<group>"; };
+		CEDB92D413AC906A008E5CF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDB92D613AC906A008E5CF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEDB92D713AC906A008E5CF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEEEBE5313B918E80057FAA4 /* OptionTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableCell.h; sourceTree = "<group>"; };
+		CEEEBE5413B918E80057FAA4 /* OptionTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableCell.m; sourceTree = "<group>"; };
+		CEEEBF7C13B9A5C20057FAA4 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/ZonesWindow.xib; sourceTree = "<group>"; };
+		CEEEC18513BA6DC80057FAA4 /* DomainGetZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainGetZones.h; sourceTree = "<group>"; };
+		CEEEC18613BA6DC80057FAA4 /* DomainGetZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainGetZones.m; sourceTree = "<group>"; };
+		CEEEC19913BA710F0057FAA4 /* HTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPOperation.h; sourceTree = "<group>"; };
+		CEEEC19A13BA710F0057FAA4 /* HTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPOperation.m; sourceTree = "<group>"; };
+		CEEEC2B913BB89CD0057FAA4 /* DomainSetZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainSetZones.h; sourceTree = "<group>"; };
+		CEEEC2BA13BB89CD0057FAA4 /* DomainSetZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainSetZones.m; sourceTree = "<group>"; };
+		CEEEC38D13BB9FEC0057FAA4 /* WorkSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkSession.h; sourceTree = "<group>"; };
+		CEEEC38E13BB9FEC0057FAA4 /* WorkSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkSession.m; sourceTree = "<group>"; };
+		CEEEC6D913BE24050057FAA4 /* VerifyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyWindowController.h; sourceTree = "<group>"; };
+		CEEEC6DA13BE24050057FAA4 /* VerifyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyWindowController.m; sourceTree = "<group>"; };
+		CEEEC6DD13BE24930057FAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VerifyWindow.xib; sourceTree = "<group>"; };
+		CEEEC6DF13BE249C0057FAA4 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/VerifyWindow.xib; sourceTree = "<group>"; };
+		CEEEC89613BF2A790057FAA4 /* DinaIP-UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DinaIP-UnitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEEC8B813BF2BE40057FAA4 /* TestDinaIPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDinaIPAppDelegate.m; sourceTree = "<group>"; };
+		CEEEC8C013BF2C820057FAA4 /* TestRPCExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRPCExecutor.m; sourceTree = "<group>"; };
+		CEEEC8C213BF2C970057FAA4 /* TestRPCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRPCMethod.m; sourceTree = "<group>"; };
+		CEEEC8C413BF2CA80057FAA4 /* TestRPCOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRPCOperation.m; sourceTree = "<group>"; };
+		CEEEC8C613BF2CB70057FAA4 /* TestHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHTTPOperation.m; sourceTree = "<group>"; };
+		CEEEC8C813BF2CD00057FAA4 /* TestLoginDinaDNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoginDinaDNS.m; sourceTree = "<group>"; };
+		CEEEC8CA13BF2CE00057FAA4 /* TestUserGetZonesDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUserGetZonesDomain.m; sourceTree = "<group>"; };
+		CEEEC8CC13BF2CEE0057FAA4 /* TestUserSetZonesDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUserSetZonesDomain.m; sourceTree = "<group>"; };
+		CEEEC8CE13BF2CFD0057FAA4 /* TestDomainGetZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDomainGetZones.m; sourceTree = "<group>"; };
+		CEEEC8D013BF2D090057FAA4 /* TestDomainSetZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDomainSetZones.m; sourceTree = "<group>"; };
+		CEEEC8D213BF2D170057FAA4 /* TestDomainZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDomainZone.m; sourceTree = "<group>"; };
+		CEEEC8D413BF2D220057FAA4 /* TestWorkSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWorkSession.m; sourceTree = "<group>"; };
+		CEEEC8D613BF2D3F0057FAA4 /* TestMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMainWindowController.m; sourceTree = "<group>"; };
+		CEEEC8D813BF2D590057FAA4 /* TestLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoginWindowController.m; sourceTree = "<group>"; };
+		CEEEC8DA13BF2D6D0057FAA4 /* TestStatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStatusItemController.m; sourceTree = "<group>"; };
+		CEEEC8DC13BF2D7C0057FAA4 /* TestAddDomainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAddDomainWindowController.m; sourceTree = "<group>"; };
+		CEEEC8DE13BF2D8D0057FAA4 /* TestPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPreferencesWindowController.m; sourceTree = "<group>"; };
+		CEEEC8E013BF2D9C0057FAA4 /* TestZonesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestZonesWindowController.m; sourceTree = "<group>"; };
+		CEEEC8E213BF2DAC0057FAA4 /* TestVerifyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVerifyWindowController.m; sourceTree = "<group>"; };
+		CEEEC8F113BF2DE00057FAA4 /* TestLoginItemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoginItemHelper.m; sourceTree = "<group>"; };
+		CEEEC8F313BF2DF60057FAA4 /* TestOptionTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOptionTableCell.m; sourceTree = "<group>"; };
+		CEEEC93E13BF6FAD0057FAA4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEEEC97013BF741B0057FAA4 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CEEECBAB13C2153F0057FAA4 /* application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = application.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEEC89313BF2A790057FAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEEC93D13BF6F620057FAA4 /* Cocoa.framework in Frameworks */,
+				CEEEC93F13BF6FAD0057FAA4 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				CEEEC93E13BF6FAD0057FAA4 /* SenTestingKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DinaIP.app */,
+				CEEEC89613BF2A790057FAA4 /* DinaIP-UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DinaIP */ = {
+			isa = PBXGroup;
+			children = (
+				CE23814E134BB6A200EBE077 /* Settings */,
+				CE23816E134BB7EC00EBE077 /* =============================== */,
+				CE238153134BB6A200EBE077 /* Sources */,
+				CE238159134BB6A200EBE077 /* Resources */,
+				CE238160134BB6A200EBE077 /* Tests */,
+				29B97315FDCFA39411CA2CEA /* =============================== */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DinaIP;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* =============================== */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "===============================";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE23814E134BB6A200EBE077 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE23814F134BB6A200EBE077 /* CodeCoverage.xcconfig */,
+				CE238150134BB6A200EBE077 /* Common.xcconfig */,
+				CE238151134BB6A200EBE077 /* Debug.xcconfig */,
+				CE238152134BB6A200EBE077 /* Release.xcconfig */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CE238153134BB6A200EBE077 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE238155134BB6A200EBE077 /* Classes */,
+				CE23816B134BB70300EBE077 /* Other */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CE238155134BB6A200EBE077 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB92A413AC8E04008E5CF8 /* XMLRPC */,
+				CEDB92A213AC8E04008E5CF8 /* Communication */,
+				CEDB92A313AC8E04008E5CF8 /* Controllers */,
+				CEB3F6FC13B50C26006D7D73 /* Utility */,
+				CE238156134BB6A200EBE077 /* DinaIPAppDelegate.h */,
+				CE238157134BB6A200EBE077 /* DinaIPAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE238159134BB6A200EBE077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE23815F134BB6A200EBE077 /* Images */,
+				CE23815A134BB6A200EBE077 /* DinaIP-Info.plist */,
+				CEB3FA7813B708CA006D7D73 /* Localizable.strings */,
+				CE23815B134BB6A200EBE077 /* InfoPlist.strings */,
+				CE23815D134BB6A200EBE077 /* MainMenu.xib */,
+				CEDB92C413AC905B008E5CF8 /* AddDomainWindow.xib */,
+				CEDB92C613AC905B008E5CF8 /* LoginWindow.xib */,
+				CEEEC6DC13BE24930057FAA4 /* VerifyWindow.xib */,
+				CEDB92C813AC905B008E5CF8 /* MainWindow.xib */,
+				CEDB92CA13AC905B008E5CF8 /* PreferencesWindow.xib */,
+				CEDB92CC13AC905B008E5CF8 /* ZonesWindow.xib */,
+				CEB3F69213B5012A006D7D73 /* Defaults.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE23815F134BB6A200EBE077 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEEECBAB13C2153F0057FAA4 /* application.icns */,
+				CE64F2F113B0E66500121E54 /* icoAdd.png */,
+				CE64F2F213B0E66500121E54 /* icoConect.png */,
+				CE64F2F313B0E66500121E54 /* icoDel.png */,
+				CE64F27413B056F800121E54 /* ico01.png */,
+				CE64F27513B056F800121E54 /* ico02.png */,
+				CE64F27613B056F800121E54 /* ico03.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE238160134BB6A200EBE077 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC8B813BF2BE40057FAA4 /* TestDinaIPAppDelegate.m */,
+				CEEEC8BA13BF2BE40057FAA4 /* XMLRPC */,
+				CEEEC8B613BF2BE40057FAA4 /* Communication */,
+				CEEEC8B713BF2BE40057FAA4 /* Controllers */,
+				CEEEC8B913BF2BE40057FAA4 /* Utility */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CE23816B134BB70300EBE077 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE238154134BB6A200EBE077 /* DinaIP_Prefix.pch */,
+				CEEEC97013BF741B0057FAA4 /* Common.h */,
+				CE238158134BB6A200EBE077 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CE23816E134BB7EC00EBE077 /* =============================== */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "===============================";
+			sourceTree = "<group>";
+		};
+		CEB3F6FC13B50C26006D7D73 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CEB3F6FD13B50C3A006D7D73 /* LoginItemHelper.h */,
+				CEB3F6FE13B50C3A006D7D73 /* LoginItemHelper.m */,
+				CEEEBE5313B918E80057FAA4 /* OptionTableCell.h */,
+				CEEEBE5413B918E80057FAA4 /* OptionTableCell.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CEDB92A213AC8E04008E5CF8 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				CEB3F84113B5F584006D7D73 /* LoginDinaDNS.h */,
+				CEB3F84213B5F584006D7D73 /* LoginDinaDNS.m */,
+				CEB3FAE413B75516006D7D73 /* UserGetZonesDomain.h */,
+				CEB3FAE513B75516006D7D73 /* UserGetZonesDomain.m */,
+				CEB3FC2013B7C8D5006D7D73 /* UserSetZonesDomain.h */,
+				CEB3FC2113B7C8D5006D7D73 /* UserSetZonesDomain.m */,
+				CEEEC18513BA6DC80057FAA4 /* DomainGetZones.h */,
+				CEEEC18613BA6DC80057FAA4 /* DomainGetZones.m */,
+				CEEEC2B913BB89CD0057FAA4 /* DomainSetZones.h */,
+				CEEEC2BA13BB89CD0057FAA4 /* DomainSetZones.m */,
+				CEB3FB6113B76CFB006D7D73 /* DomainZone.h */,
+				CEB3FB6213B76CFB006D7D73 /* DomainZone.m */,
+				CEEEC38D13BB9FEC0057FAA4 /* WorkSession.h */,
+				CEEEC38E13BB9FEC0057FAA4 /* WorkSession.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		CEDB92A313AC8E04008E5CF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB92A513AC8E20008E5CF8 /* MainWindowController.h */,
+				CEDB92A613AC8E20008E5CF8 /* MainWindowController.m */,
+				CEDB92A813AC8E3C008E5CF8 /* LoginWindowController.h */,
+				CEDB92A913AC8E3C008E5CF8 /* LoginWindowController.m */,
+				CEDB92AB13AC8E79008E5CF8 /* StatusItemController.h */,
+				CEDB92AC13AC8E79008E5CF8 /* StatusItemController.m */,
+				CEDB92B113AC8EC2008E5CF8 /* AddDomainWindowController.h */,
+				CEDB92B213AC8EC2008E5CF8 /* AddDomainWindowController.m */,
+				CEDB92B413AC8ED9008E5CF8 /* PreferencesWindowController.h */,
+				CEDB92B513AC8ED9008E5CF8 /* PreferencesWindowController.m */,
+				CEDB92B713AC8EF6008E5CF8 /* ZonesWindowController.h */,
+				CEDB92B813AC8EF6008E5CF8 /* ZonesWindowController.m */,
+				CEEEC6D913BE24050057FAA4 /* VerifyWindowController.h */,
+				CEEEC6DA13BE24050057FAA4 /* VerifyWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEDB92A413AC8E04008E5CF8 /* XMLRPC */ = {
+			isa = PBXGroup;
+			children = (
+				CEB3F85013B5F7DE006D7D73 /* RPCExecutor.h */,
+				CEB3F85113B5F7DE006D7D73 /* RPCExecutor.m */,
+				CEB3F84713B5F7A2006D7D73 /* RPCMethod.h */,
+				CEB3F84813B5F7A2006D7D73 /* RPCMethod.m */,
+				CEB3F86D13B60668006D7D73 /* RPCOperation.h */,
+				CEB3F86E13B60668006D7D73 /* RPCOperation.m */,
+				CEEEC19913BA710F0057FAA4 /* HTTPOperation.h */,
+				CEEEC19A13BA710F0057FAA4 /* HTTPOperation.m */,
+			);
+			path = XMLRPC;
+			sourceTree = "<group>";
+		};
+		CEEEC8B613BF2BE40057FAA4 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC8C813BF2CD00057FAA4 /* TestLoginDinaDNS.m */,
+				CEEEC8CA13BF2CE00057FAA4 /* TestUserGetZonesDomain.m */,
+				CEEEC8CC13BF2CEE0057FAA4 /* TestUserSetZonesDomain.m */,
+				CEEEC8CE13BF2CFD0057FAA4 /* TestDomainGetZones.m */,
+				CEEEC8D013BF2D090057FAA4 /* TestDomainSetZones.m */,
+				CEEEC8D213BF2D170057FAA4 /* TestDomainZone.m */,
+				CEEEC8D413BF2D220057FAA4 /* TestWorkSession.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		CEEEC8B713BF2BE40057FAA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC8D613BF2D3F0057FAA4 /* TestMainWindowController.m */,
+				CEEEC8D813BF2D590057FAA4 /* TestLoginWindowController.m */,
+				CEEEC8DA13BF2D6D0057FAA4 /* TestStatusItemController.m */,
+				CEEEC8DC13BF2D7C0057FAA4 /* TestAddDomainWindowController.m */,
+				CEEEC8DE13BF2D8D0057FAA4 /* TestPreferencesWindowController.m */,
+				CEEEC8E013BF2D9C0057FAA4 /* TestZonesWindowController.m */,
+				CEEEC8E213BF2DAC0057FAA4 /* TestVerifyWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEEEC8B913BF2BE40057FAA4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC8F113BF2DE00057FAA4 /* TestLoginItemHelper.m */,
+				CEEEC8F313BF2DF60057FAA4 /* TestOptionTableCell.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CEEEC8BA13BF2BE40057FAA4 /* XMLRPC */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC8C013BF2C820057FAA4 /* TestRPCExecutor.m */,
+				CEEEC8C213BF2C970057FAA4 /* TestRPCMethod.m */,
+				CEEEC8C413BF2CA80057FAA4 /* TestRPCOperation.m */,
+				CEEEC8C613BF2CB70057FAA4 /* TestHTTPOperation.m */,
+			);
+			path = XMLRPC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DinaIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DinaIP" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinaIP;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DinaIP;
+			productReference = 8D1107320486CEB800E47090 /* DinaIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEEC89513BF2A790057FAA4 /* DinaIP-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEEC89C13BF2A7A0057FAA4 /* Build configuration list for PBXNativeTarget "DinaIP-UnitTests" */;
+			buildPhases = (
+				CEEEC89113BF2A790057FAA4 /* Resources */,
+				CEEEC89213BF2A790057FAA4 /* Sources */,
+				CEEEC89313BF2A790057FAA4 /* Frameworks */,
+				CEEEC89413BF2A790057FAA4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEEC8BD13BF2C010057FAA4 /* PBXTargetDependency */,
+			);
+			name = "DinaIP-UnitTests";
+			productName = "DinaIP-UnitTests";
+			productReference = CEEEC89613BF2A790057FAA4 /* DinaIP-UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DinaIP" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DinaIP */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEECB4213C178040057FAA4 /* DinaIP+DMG */,
+				8D1107260486CEB800E47090 /* DinaIP */,
+				CEEEC89513BF2A790057FAA4 /* DinaIP-UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE238168134BB6A200EBE077 /* InfoPlist.strings in Resources */,
+				CE238169134BB6A200EBE077 /* MainMenu.xib in Resources */,
+				CEDB92CE13AC905B008E5CF8 /* AddDomainWindow.xib in Resources */,
+				CEDB92CF13AC905B008E5CF8 /* LoginWindow.xib in Resources */,
+				CEDB92D013AC905B008E5CF8 /* MainWindow.xib in Resources */,
+				CEDB92D113AC905B008E5CF8 /* PreferencesWindow.xib in Resources */,
+				CEDB92D213AC905B008E5CF8 /* ZonesWindow.xib in Resources */,
+				CE64F27713B056F800121E54 /* ico01.png in Resources */,
+				CE64F27813B056F800121E54 /* ico02.png in Resources */,
+				CE64F27913B056F800121E54 /* ico03.png in Resources */,
+				CE64F2F413B0E66500121E54 /* icoAdd.png in Resources */,
+				CE64F2F513B0E66500121E54 /* icoConect.png in Resources */,
+				CE64F2F613B0E66500121E54 /* icoDel.png in Resources */,
+				CEB3F69313B5012A006D7D73 /* Defaults.plist in Resources */,
+				CEB3FA7A13B708CA006D7D73 /* Localizable.strings in Resources */,
+				CEEEC6DE13BE24930057FAA4 /* VerifyWindow.xib in Resources */,
+				CEEECBAC13C2153F0057FAA4 /* application.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEEC89113BF2A790057FAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEEEC89413BF2A790057FAA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		CEEECB4113C178040057FAA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npushd ${SRCROOT}\nrm -fR ${DSTROOT}\n\nxcodebuild -target ${PRODUCT_NAME} -configuration Release clean\nxcodebuild -target ${PRODUCT_NAME} -configuration Release install\n\nif [ ! -e \"${OBJROOT}/Product\" ]; then\n\tmkdir \"${OBJROOT}/Product\"\nfi\nif [ -f \"${OBJROOT}/Product/${PRODUCT_NAME}.dmg\" ]; then\n\trm \"${OBJROOT}/Product/${PRODUCT_NAME}.dmg\"\nfi\n\nexport DISKUTIL=/usr/bin/hdiutil\nexport TEMPL_DMG=./Resources/${PRODUCT_NAME}-Template.dmg\n\n${DISKUTIL} attach -nobrowse ${TEMPL_DMG}\n\ncp -fR \"${INSTALL_DIR}/${PRODUCT_NAME}.app\" /Volumes/${PRODUCT_NAME}\n\n${DISKUTIL} detach /Volumes/${PRODUCT_NAME}\n${DISKUTIL} convert ${TEMPL_DMG} -format UDZO -o \"${OBJROOT}/Product/${PRODUCT_NAME}.dmg\"\n\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE238165134BB6A200EBE077 /* DinaIPAppDelegate.m in Sources */,
+				CE238166134BB6A200EBE077 /* main.m in Sources */,
+				CEDB92A713AC8E20008E5CF8 /* MainWindowController.m in Sources */,
+				CEDB92AA13AC8E3C008E5CF8 /* LoginWindowController.m in Sources */,
+				CEDB92AD13AC8E79008E5CF8 /* StatusItemController.m in Sources */,
+				CEDB92B313AC8EC2008E5CF8 /* AddDomainWindowController.m in Sources */,
+				CEDB92B613AC8ED9008E5CF8 /* PreferencesWindowController.m in Sources */,
+				CEDB92B913AC8EF6008E5CF8 /* ZonesWindowController.m in Sources */,
+				CEB3F6FF13B50C3A006D7D73 /* LoginItemHelper.m in Sources */,
+				CEB3F84313B5F584006D7D73 /* LoginDinaDNS.m in Sources */,
+				CEB3F84913B5F7A2006D7D73 /* RPCMethod.m in Sources */,
+				CEB3F85213B5F7DE006D7D73 /* RPCExecutor.m in Sources */,
+				CEB3F86F13B60668006D7D73 /* RPCOperation.m in Sources */,
+				CEB3FAE613B75516006D7D73 /* UserGetZonesDomain.m in Sources */,
+				CEB3FB6313B76CFB006D7D73 /* DomainZone.m in Sources */,
+				CEB3FC2213B7C8D5006D7D73 /* UserSetZonesDomain.m in Sources */,
+				CEEEBE5513B918E80057FAA4 /* OptionTableCell.m in Sources */,
+				CEEEC18713BA6DC80057FAA4 /* DomainGetZones.m in Sources */,
+				CEEEC19B13BA710F0057FAA4 /* HTTPOperation.m in Sources */,
+				CEEEC2BB13BB89CD0057FAA4 /* DomainSetZones.m in Sources */,
+				CEEEC38F13BB9FEC0057FAA4 /* WorkSession.m in Sources */,
+				CEEEC6DB13BE24050057FAA4 /* VerifyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEEC89213BF2A790057FAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEEC8BB13BF2BE40057FAA4 /* TestDinaIPAppDelegate.m in Sources */,
+				CEEEC8C113BF2C820057FAA4 /* TestRPCExecutor.m in Sources */,
+				CEEEC8C313BF2C970057FAA4 /* TestRPCMethod.m in Sources */,
+				CEEEC8C513BF2CA80057FAA4 /* TestRPCOperation.m in Sources */,
+				CEEEC8C713BF2CB70057FAA4 /* TestHTTPOperation.m in Sources */,
+				CEEEC8C913BF2CD00057FAA4 /* TestLoginDinaDNS.m in Sources */,
+				CEEEC8CB13BF2CE00057FAA4 /* TestUserGetZonesDomain.m in Sources */,
+				CEEEC8CD13BF2CEE0057FAA4 /* TestUserSetZonesDomain.m in Sources */,
+				CEEEC8CF13BF2CFD0057FAA4 /* TestDomainGetZones.m in Sources */,
+				CEEEC8D113BF2D090057FAA4 /* TestDomainSetZones.m in Sources */,
+				CEEEC8D313BF2D170057FAA4 /* TestDomainZone.m in Sources */,
+				CEEEC8D513BF2D220057FAA4 /* TestWorkSession.m in Sources */,
+				CEEEC8D713BF2D3F0057FAA4 /* TestMainWindowController.m in Sources */,
+				CEEEC8D913BF2D590057FAA4 /* TestLoginWindowController.m in Sources */,
+				CEEEC8DB13BF2D6D0057FAA4 /* TestStatusItemController.m in Sources */,
+				CEEEC8DD13BF2D7C0057FAA4 /* TestAddDomainWindowController.m in Sources */,
+				CEEEC8DF13BF2D8D0057FAA4 /* TestPreferencesWindowController.m in Sources */,
+				CEEEC8E113BF2D9C0057FAA4 /* TestZonesWindowController.m in Sources */,
+				CEEEC8E313BF2DAC0057FAA4 /* TestVerifyWindowController.m in Sources */,
+				CEEEC8F213BF2DE00057FAA4 /* TestLoginItemHelper.m in Sources */,
+				CEEEC8F413BF2DF60057FAA4 /* TestOptionTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEEC8BD13BF2C010057FAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* DinaIP */;
+			targetProxy = CEEEC8BC13BF2C010057FAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE23815B134BB6A200EBE077 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE23815C134BB6A200EBE077 /* en */,
+				CEDB92D413AC906A008E5CF8 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE23815D134BB6A200EBE077 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE23815E134BB6A200EBE077 /* en */,
+				CEDB92D613AC906A008E5CF8 /* es */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CEB3FA7813B708CA006D7D73 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB3FA7913B708CA006D7D73 /* en */,
+				CEB3FA7B13B709EA006D7D73 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CEDB92C413AC905B008E5CF8 /* AddDomainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB92C513AC905B008E5CF8 /* en */,
+				CEB3FAC413B72036006D7D73 /* es */,
+			);
+			name = AddDomainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEDB92C613AC905B008E5CF8 /* LoginWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB92C713AC905B008E5CF8 /* en */,
+				CEB3F9E313B67F5D006D7D73 /* es */,
+			);
+			name = LoginWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEDB92C813AC905B008E5CF8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB92C913AC905B008E5CF8 /* en */,
+				CEDB92D713AC906A008E5CF8 /* es */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEDB92CA13AC905B008E5CF8 /* PreferencesWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB92CB13AC905B008E5CF8 /* en */,
+				CEB3F78013B5B55D006D7D73 /* es */,
+			);
+			name = PreferencesWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEDB92CC13AC905B008E5CF8 /* ZonesWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB92CD13AC905B008E5CF8 /* en */,
+				CEEEBF7C13B9A5C20057FAA4 /* es */,
+			);
+			name = ZonesWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEEEC6DC13BE24930057FAA4 /* VerifyWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEEC6DD13BE24930057FAA4 /* en */,
+				CEEEC6DF13BE249C0057FAA4 /* es */,
+			);
+			name = VerifyWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Sources/DinaIP_Prefix.pch";
+				INFOPLIST_FILE = "${SRCROOT}/Resources/DinaIP-Info.plist";
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Sources/DinaIP_Prefix.pch";
+				INFOPLIST_FILE = "${SRCROOT}/Resources/DinaIP-Info.plist";
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE238151134BB6A200EBE077 /* Debug.xcconfig */;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE238152134BB6A200EBE077 /* Release.xcconfig */;
+			buildSettings = {
+				BUILD_NUMBER = 1.0.1;
+				PREBINDING = NO;
+				PRODUCT_VERSION = 1.0.1;
+			};
+			name = Release;
+		};
+		CE23816C134BB75600EBE077 /* CodeCoverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE23814F134BB6A200EBE077 /* CodeCoverage.xcconfig */;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+			};
+			name = CodeCoverage;
+		};
+		CE23816D134BB75600EBE077 /* CodeCoverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "${SRCROOT}/Resources/DinaIP-Info.plist";
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+			};
+			name = CodeCoverage;
+		};
+		CEEEC89913BF2A790057FAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "${SRCROOT}/Tests/${PRODUCT_NAME}-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "DinaIP-UnitTests";
+				TEST_HOST = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEEEC89A13BF2A790057FAA4 /* CodeCoverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "${SRCROOT}/Tests/${PRODUCT_NAME}-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "DinaIP-UnitTests";
+				TEST_HOST = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = CodeCoverage;
+		};
+		CEEEC89B13BF2A790057FAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "${SRCROOT}/Tests/${PRODUCT_NAME}-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "DinaIP-UnitTests";
+				TEST_HOST = "${TARGET_BUILD_DIR}/DinaIP.app/Contents/MacOS/DinaIP";
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		CEEECB4313C178040057FAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		CEEECB4413C178040057FAA4 /* CodeCoverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+			};
+			name = CodeCoverage;
+		};
+		CEEECB4513C178040057FAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = DinaIP;
+				SKIP_INSTALL = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DinaIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				CE23816D134BB75600EBE077 /* CodeCoverage */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DinaIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				CE23816C134BB75600EBE077 /* CodeCoverage */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEEC89C13BF2A7A0057FAA4 /* Build configuration list for PBXNativeTarget "DinaIP-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEEC89913BF2A790057FAA4 /* Debug */,
+				CEEEC89A13BF2A790057FAA4 /* CodeCoverage */,
+				CEEEC89B13BF2A790057FAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEECB6013C1782C0057FAA4 /* Build configuration list for PBXAggregateTarget "DinaIP+DMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEECB4313C178040057FAA4 /* Debug */,
+				CEEECB4413C178040057FAA4 /* CodeCoverage */,
+				CEEECB4513C178040057FAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

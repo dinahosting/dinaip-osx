@@ -1,0 +1,63 @@
+/* 
+   Localizable.strings
+   DinaIP
+*/
+
+"AcceptKey" = "Accept";
+"CancelKey" = "Cancel";
+
+"DeleteDomainTitleKey" = "Do you want to delete selected domain?";
+"DeleteDomainMessageKey" = "The domain will be removed only from the list of monitored domain, but not from the server.";
+
+"RetrieveZonesKey" = "Retrieve Zones...";
+"UpdateZonesKey" = "Updating Zones...";
+"DynamicIPKey" = "Dynamic IP";
+
+"FailedLoginTitleKey" = "Validation is not correct";
+"FailedLoginMessageKey" = "Provided identifier and/or password are not correct. Please try again with different.";
+"FailedNetworkTitleKey" = "Communication with server failed";
+"FailedNetworkMessageKey" = "Please check your network, then try again.";
+"FailedAddTitleKey" = "Selected domain is unknown";
+"FailedAddMessageKey" = "Please try again and select one from the list of available domains.";
+"FailedStoreTitleKey" = "Could not save configuration";
+"FailedStoreMessageKey" = "Please try to save the configuration to a different location.";
+"FailedRestoreTitleKey" = "Could not load configuration";
+"FailedRestoreMessageKey" = "The selected file either corrupted or has wrong format, please try another one.";
+"FailedUpdateZonesTitleKey" = "Could not save zones";
+"FailedUpdateZonesInRowTitleKey" = "Could not save zones due to error in row %d";
+"FailedGetZonesTitleKey" = "Could not retrieve zones";
+"FailedZonesMessageKey" = "The operation did fail, please try again later.";
+"FailedZoneVerifyTitleKey" = "Some of zones are incorrect";
+"FailedZoneVerifyMessageKey" = "Please review and correct zone parameters or delete incomplete zones, then try again.";
+
+"OKKey" = "OK";
+
+"NewVersionTitleKey" = "New version found";
+"RequiredUpdateMessageKey" = "The application will be updated to version %@";
+"MustUpdateMessageKey" = "The application should be updated to version %@. Do you want to do it now?";
+"OptionalUpdateMessageKey" = "The application could be updated to version %@. Do you want to do it now?";
+
+"StatusIPKey" = "IP: ";
+"NotDeterminedKey" = "Not Determined Yet";
+"ShowDinaIPKey" = "Show DinaIP";
+
+"StartCheckingIPKey" = "Start Checking Current IP";
+"StopCheckingIPKey" = "Stop Checking Current IP";
+
+"DOMINIO_INACTIVO" = "Domain selected is not active now.";
+"ERROR_DINAHOSTING_CANT_ANSWER" = "An error occurred while accessing database.If the problem continues contact technical support.";
+"ERROR_LACKS_ADDRESS_" = "Value required for the address.";
+"ERROR_LACKS_HOST_" = "Value required for DNS Service.";
+"ERROR_LACKS_TYPE_" = "Value required for type.";
+"ERROR_WRONG_CNAMESPECIAL_" = "A CNAME for register @ cannot be configured.";
+"ERROR_WRONG_FQDN_" = "A CNAME must point to another host or to a domain name ending in '.'";
+"ERROR_WRONG_HOST_" = "Host is not valid.";
+"ERROR_WRONG_IGUALES_" = "MX must be different.";
+"ERROR_WRONG_IP_" = "IP is not valid.";
+"ERROR_WRONG_NODEFINIDO_" = "MX must have its DNS Service configured.";
+"ERROR_WRONG_TYPE_" = "Type for DNS Service is incorrect.";
+"ERROR_WRONG_URL_" = "URL is not valid.";
+"REGISTRADOR_CAIDO" = "DNS Services are configured. Communication error with register toestablish correct DNS. Try again later.";
+"WRONGIP_" = "Some IP introduced is not valid.";
+"WRONGMX_" = "Some MX introduced is not valid.";
+"WRONGRULE_" = "You have to select one of the options.";
